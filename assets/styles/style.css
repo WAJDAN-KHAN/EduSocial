@@ -203,6 +203,22 @@ body {
     z-index: -1;
 }
 
+
+
+.partners-section{
+    padding: 60px 0px;
+    background: #F1F5F9;
+
+}
+
+.top-part{
+    color: #0F172A;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
 /* media query  */
 
 @media(max-width:800px) {
