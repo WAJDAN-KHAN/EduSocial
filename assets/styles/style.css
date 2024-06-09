@@ -154,10 +154,54 @@ body {
     top: 0;
 }
 
+.service-card-1{
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #FCDDEC7A;
+    border: 2px solid #F178B6;
+    height: 100%;
+}
 
+.service-card-2{
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #D3D4F5;
+    height: 100%;
 
+    border: 2px solid #2F327D
+}
 
+.service img{
+    width: 100px;
+    height: 100px;
+}
+.service-card-1 h1 , .service-card-2 h1{
+    color: #4B4B4B;
+    font-size: 24px;
+    font-weight: 700;
+    /* line-height: 50.4px; */
+    margin: 0;
+}
 
+.service-card-1 p , .service-card-2 p{
+    color: #4B4B4B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.4px;
+}
+
+.ball{
+    position: absolute;
+    bottom: 99px;
+    left: 0;
+    z-index: -1;
+}
 
 /* media query  */
 
