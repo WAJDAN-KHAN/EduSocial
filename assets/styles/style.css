@@ -234,35 +234,38 @@ body {
     background-size: cover;
 }
 
-.footer-address{
+.footer-address {
     max-width: 232px;
     width: 100%;
     margin: auto;
 }
-.categories{
+
+.categories {
     max-width: 84px;
     width: 100%;
     margin: auto;
 }
-.addres h1{
+
+.addres h1 {
     font-size: 14px;
     font-weight: 700;
     color: #0B7077;
 }
-.addres p{
+
+.addres p {
     color: #0B7077;
     font-weight: 400;
     font-size: 14px;
 }
 
-.categories h1{
-    font-size: 15px; 
+.categories h1 {
+    font-size: 15px;
     font-weight: 500;
     color: #0A033C;
 }
 
 
-.categories ul{
+.categories ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -271,7 +274,7 @@ body {
     gap: 15px;
 }
 
-.categories ul li a{
+.categories ul li a {
     color: #0B7077;
     font-size: 14px;
     font-weight: 400;
@@ -288,9 +291,7 @@ body {
         display: none;
     }
 
-    .hidden {
-        display: none;
-    }
+
 
     .title-1 {
         color: #0A033C;
@@ -305,15 +306,26 @@ body {
 @media(max-width:500px) {
     .header-section {
         padding: 20px;
+        background-color: #D2E6E4;
+    }
+
+    .hidden {
+        display: none;
     }
 
     .showw {
         display: block;
     }
 
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .hero-section {
         padding: 60px 20px;
-        background-image: url(../images/hero-bg.png);
+        background-image: url(../images/mob-bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 50%;
@@ -324,20 +336,41 @@ body {
         margin: 15px 0px;
     }
 
+    .partners-section {
+        background: none;
+    }
+
+    .about-us {
+        padding: 40px 20px;
+    }
+
     .footer-section {
-        padding-top: 100px;
+        padding-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
+        background-image: url('../images/Rectangle-2689.png');
     }
-    .footer-address ,.categories{
+
+    .footer-address,
+    .categories {
         max-width: 100%;
         width: 100%;
         margin: auto;
     }
+
     .logo h1 {
         font-weight: 400;
         font-size: 18px;
         line-height: 45px;
         color: #0B7077;
+    }
+
+    .title-1 {
+        color: #0A033C;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 45px;
+        max-width: 100%;
+        text-align: center;
     }
 }
